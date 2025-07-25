@@ -1,0 +1,32 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {font-family: 'Pretendard-Regular'; src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); font-weight: 400; font-style: normal;} 
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard-Regular', sans-serif !important;}
+.notosanskr * {font-family: 'Pretendard-Regular', sans-serif !important;}
+
+html, body {background: #f8f9fa;color: #555;font-size: 14px;}
+.invalid-feedback {font-size: 1rem;}
+.font-12 {font-size: 12px;}
+.font-14 {font-size: 14px;}
+.font-30 {font-size: 30px;}
+.font-40 {font-size: 40px;}
+.width-60 {width: 60px;}
+.width-100 {width: 100% !important;}
+.width-max-1620{max-width: 1620px;}
+.ui-datepicker{ z-index: 9999 !important;}
+.mbp-20 {margin-bottom: 20px;}
+.mb-30 {margin-bottom: 30px !important;}
+.bg-white {background: white !important;}
+.txt-center {text-align: center !important;}
+.txt-left {text-align: left !important;}
+.m-h-100 { height:  unset !important; min-height: 100vh !important;}
+.no-wrap {white-space: nowrap;}
+.align-start {align-self: flex-start;}
+
+
+
+
+
+
+
+

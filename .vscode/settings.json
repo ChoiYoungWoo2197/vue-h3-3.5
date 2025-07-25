@@ -1,0 +1,38 @@
+{
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "workbench.externalBrowser": "",
+  "open-in-browser.default": "",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  // ▶️ VSCode 전체 가속 관련
+  "disable-hardware-acceleration": true, // 전체 GPU 가속 비활성화
+  "terminal.integrated.gpuAcceleration": "off", // 터미널 GPU 사용 금지
+
+  // ▶️ 터미널 성능 향상
+  "terminal.integrated.scrollback": 1000, // 터미널 로그 줄 수 제한
+  "terminal.integrated.rendererType": "dom", // GPU가속 대신 DOM 렌더러 사용
+
+  // ▶️ 자동 저장 비활성화 또는 딜레이 설정
+  "files.autoSave": "off", // 또는 "onWindowChange", "afterDelay"
+  "files.autoSaveDelay": 2000,
+
+  // ▶️ 워크스페이스에서 리소스 절약
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/dist/**": true
+  },
+
+  // ▶️ Live Server, 미리보기 기능 사용 시
+  "liveServer.settings.useBrowserPreview": false, // 내장 브라우저 미리보기 끄기
+  "liveServer.settings.NoBrowser": true, // 브라우저 자동 실행 막기
+
+  // ▶️ TypeScript / JavaScript 메모리 제한 (대형 프로젝트 시)
+  "typescript.tsserver.maxTsServerMemory": 2048,
+
+  // ▶️ 불필요한 기능 비활성화
+  "workbench.enableExperiments": false,
+  "workbench.startupEditor": "none",
+  "update.mode": "manual" // 자동 업데이트로 인한 충돌 방지
+}

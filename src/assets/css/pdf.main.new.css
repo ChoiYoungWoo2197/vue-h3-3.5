@@ -1,0 +1,38 @@
+* { -webkit-font-smoothing: antialiased;}
+#pdf-content {background-image: url("../../assets/image/pdf_inner_bg.png"); background-size: cover;  width: 1588px;  height: 1050px;  padding: 40px;  background-color: #fff;  font-family: 'Noto Sans KR', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;  box-sizing: border-box;  color: #333;}
+#pdf-content table {width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; table-layout: fixed;}
+#pdf-content thead td, #pdf-content thead th, #pdf-content tbody td {border: 1px solid #ccc; padding: 6px 4px; text-align: center; word-break: break-word;}
+#pdf-content thead {background-color: #e5ebf7; font-weight: 700; color: #222;}
+#pdf-content tbody td {vertical-align: middle; height: 33px; max-width: 120px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+#pdf-content tbody td:first-child {font-weight: 700;}
+#pdf-content tbody tr:hover {background-color: #f0f8ff;}
+#pdf-content tbody tr.total td {font-weight: 700; background-color: #f5f5f5;}
+#pdf-content tbody tr.total td:first-child {color: #095AE1;}
+#pdf-content p {margin: 0 0 6px 0; font-weight: 600; font-size: 18px; color: #555;}
+#pdf-content .txt-16 {font-size: 16px !important}
+#pdf-content .txt-18 {font-size: 18px !important}
+#pdf-content .txt-20 {font-size: 20px !important}
+#pdf-content .txt-24 {font-size: 24px !important}
+#pdf-content .txt-32 {font-size: 32px !important}
+#pdf-content .txt-36 {font-size: 36px !important}
+#pdf-content .txt-48 {font-size: 48px !important}
+#pdf-content .txt-center {text-align: center !important;}
+#pdf-content .fw-900 {font-weight: 900;}
+#pdf-content .mt-10 {margin-top: 10px !important;}
+#pdf-content .mt-20 {margin-top: 20px !important;}
+#pdf-content .mt-30 {margin-top: 30px !important;}
+#pdf-content .mt-50 {margin-top: 50px !important;}
+#pdf-content .mt-80 {margin-top: 80px !important;}
+#pdf-content .mt-150 {margin-top: 150px !important;}
+#pdf-content .d-flex {display: flex;}
+#pdf-content .justify-content-between {justify-content: space-between;}
+#pdf-content .align-items-center {align-items: center;}
+#pdf-content .gap-2 {gap: 0.5rem;}
+#pdf-content .col-3 {flex: 0 0 24%; max-width: 25%; padding-left: 0; padding-right: 0;}
+#pdf-content .col-4 {flex: 0 0 33%; max-width: 33%; padding-left: 0; padding-right: 0;}
+#pdf-content .card {border: 1px solid #ccc; padding: 8px;}
+#pdf-content .chart-title{font-weight: 700; color: #095AE1; margin-bottom: 10px;}
+#pdf-content .hidden-print {position: absolute; top: -9999px; left: -9999px; visibility: hidden; pointer-events: none;}
+#pdf-content .fc-#ccc{color: #ccc;}
+#pdf-content .up{color: #e04513 !important;}
+#pdf-content .down{color: #14aee0 !important;}
